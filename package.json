@@ -1,5 +1,5 @@
 {
-  "name": "@postnikov/linter-rules",
+  "name": "@postnikovmaksim/linter-rules",
   "description": "Содержит настроки для линтеров",
   "repository": "https://github.com/postnikovmaksim/linter-rules.git",
   "version": "1.0.1",
