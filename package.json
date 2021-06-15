@@ -2,7 +2,7 @@
   "name": "@postnikovmaksim/linter-rules",
   "description": "Содержит настроки для линтеров",
   "repository": "https://github.com/postnikovmaksim/linter-rules.git",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "author": "Postnikov Maksim <postnikovmaksim@gmail.com>",
   "license": "MIT",
