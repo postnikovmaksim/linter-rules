@@ -1,9 +1,9 @@
-module.export = {
+module.exports = {
 	extends: [
-		'plugin:import/recommended'
+		'plugin:import/recommended',
 	],
 	plugins: [
-		'import'
+		'import',
 	],
 	settings: {
 		'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
@@ -40,5 +40,5 @@ module.export = {
 		'import/newline-after-import': ['error'],
 		'import/no-unassigned-import': ['error'],
 		'import/no-named-default': ['error'],
-	},
-};
+	}
+}

@@ -1,12 +1,16 @@
 module.exports = {
+	extends: [
+		'eslint:recommended',
+	],
 	env: {
 		node: true,
-		es2020: true,
 		browser: true,
+		es2020: true,
 	},
-	extends: [
-		'eslint:recommended'
-	],
+	parserOptions: {
+		ecmaVersion: 2020,
+		sourceType: 'module',
+	},
 	rules: {
 		// Possible Errors
 		'no-await-in-loop': ['error'],
@@ -190,4 +194,4 @@ module.exports = {
 			},
 		}
 	],
-};
+}

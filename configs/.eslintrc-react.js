@@ -1,9 +1,14 @@
-module.export = {
+module.exports = {
 	extends: [
-		'plugin:react/recommended'
+		'plugin:react/recommended',
 	],
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true,
+		},
+	},
 	plugins: [
-		'react'
+		'react',
 	],
 	settings: {
 		react: {
@@ -11,7 +16,6 @@ module.export = {
 		},
 	},
 	rules: {
-		// supported rules
 		'react/boolean-prop-naming': ['error', {
 			rule: '^(is|has|can)[A-Z]([A-Za-z0-9]?)+',
 			validateNested: true,
@@ -95,5 +99,5 @@ module.export = {
 			logical: 'parens-new-line',
 			prop: 'parens-new-line',
 		}],
-	},
-};
+	}
+}

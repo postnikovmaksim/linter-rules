@@ -1,14 +1,11 @@
-module.export = {
+module.exports = {
 	extends: [
-		'plugin:@typescript-eslint/recommended'
+		'plugin:@typescript-eslint/recommended',
 	],
-	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		project: './tsconfig.json',
-		ecmaFeatures: {
-			jsx: true,
-		},
 	},
+	parser: '@typescript-eslint/parser',
 	plugins: [
 		'@typescript-eslint'
 	],
@@ -138,4 +135,4 @@ module.export = {
 			},
 		}
 	],
-};
+}
