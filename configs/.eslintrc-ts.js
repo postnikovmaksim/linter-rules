@@ -11,7 +11,7 @@ module.exports = {
 	],
 	rules: {
 		// TS
-		'@typescript-eslint/array-type': ['error', { default: 'generic' }],
+		'@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
 		'@typescript-eslint/ban-tslint-comment': ['error'],
 		'@typescript-eslint/consistent-indexed-object-style': ['error'],
 		'@typescript-eslint/consistent-type-assertions': ['error'],
@@ -82,7 +82,7 @@ module.exports = {
 		'@typescript-eslint/no-loss-of-precision': ['error'],
 		'no-magic-numbers': 'off',
 		'@typescript-eslint/no-magic-numbers': ['error', {
-			ignore: [0, 1],
+			ignore: [-1, 0, 1],
 			ignoreArrayIndexes: true,
 		}],
 		'no-redeclare': 'off',

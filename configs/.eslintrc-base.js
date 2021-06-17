@@ -126,7 +126,6 @@ module.exports = {
 		'wrap-regex': ['error'],
 
 		// ECMAScript 6
-		'arrow-body-style': ['error'],
 		'arrow-parens': ['error'],
 		'arrow-spacing': ['error'],
 		'no-useless-computed-key': ['error'],
@@ -162,7 +161,7 @@ module.exports = {
 		'no-loop-func': ['error'],
 		'no-loss-of-precision': ['error'],
 		'no-magic-numbers': ['error', {
-			ignore: [0, 1],
+			ignore: [-1, 0, 1],
 			ignoreArrayIndexes: true,
 		}],
 		'no-redeclare': ['error'],
