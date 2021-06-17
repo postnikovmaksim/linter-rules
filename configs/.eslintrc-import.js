@@ -38,7 +38,14 @@ module.exports = {
 				caseInsensitive: true },
 		}],
 		'import/newline-after-import': ['error'],
-		'import/no-unassigned-import': ['error'],
+		'import/no-unassigned-import': ['error', {
+			"allow": [
+				"**/*.css",
+				"regenerator-runtime/runtime",
+				"core-js/stable",
+				"babel-register",
+			]
+		}],
 		'import/no-named-default': ['error'],
 	}
 }
