@@ -6,6 +6,9 @@
   "main": "index.js",
   "author": "Postnikov Maksim <postnikovmaksim@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "up": "npm version patch && git push && git push --tags"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
